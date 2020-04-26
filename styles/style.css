@@ -4,11 +4,15 @@ body {
 
   color: #303846;
 }
+main {
+  margin-top: 75px;
+}
 A:link {
   text-decoration: none;
 }
 A:visited {
   text-decoration: none;
+
   color: #303846;
 }
 .main-header {
@@ -19,28 +23,71 @@ A:visited {
 
   display: flex;
   align-items: center;
+  height: 75px;
+
   font-weight: bold;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-.bg-color {
-  background-color: turquoise;
-}
-.bg-white {
+
   background-color: white;
 }
-.max-h-55px {
-  max-height: 55px;
+.header-logo {
+  max-height: 45px;
+  margin: 5px;
+  margin-left: 20px;
 }
-.max-h-40px {
-  max-height: 40px;
+.company-name {
+  flex: 1;
+  margin-left: 5px;
 }
-.marg-t-50 {
-  margin-top: 50px;
+.navigation {
+  margin: 10px;
 }
-.flex-grow {
-  flex-grow: 1;
+.banner {
+  display: flex;
+  height: 550px;
+  align-items: center;
+  justify-content: center;
+
+  background-image: url(../images/banner.png);
+  background-position: center;
+  background-position-y: 70%;
+  background-repeat: no-repeat;
 }
-.marg-5px {
-  margin: 7px;
+.banner-elements {
+  position: absolute;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  color: white;
+}
+.banner-logo {
+  max-height: 225px;
+}
+.logo-text-name {
+  font-size: 48px;
+}
+.logo-text-slogan {
+  font-size: 20px;
+  margin-top: 2px;
+}
+.banner-button {
+  display: block;
+
+  height: 50px;
+  width: 200px;
+  
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+
+  
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid silver;
+  border-radius: 10px;
+  margin-top: 25px;
+}
+.marg-10px {
+  margin: 10px;
 }

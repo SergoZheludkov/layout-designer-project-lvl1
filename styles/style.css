@@ -7,6 +7,16 @@ body {
 main {
   margin-top: 75px;
 }
+footer {
+  height: 200px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+  background-color: #303846;
+}
 h2 {
   font-size: 31px;
 }
@@ -32,10 +42,15 @@ legend {
 A:link {
   text-decoration: none;
 }
-A:visited {
+header A:visited {
   text-decoration: none;
 
   color: #303846;
+}
+footer A:visited {
+  text-decoration: none;
+
+  color: #fff;
 }
 .main-header {
   position: fixed;
@@ -188,6 +203,23 @@ A:visited {
   background: rgba(255, 255, 255, 0.1);
   border: 1.5px solid rgb(121, 228, 174);
   margin-top: 20px;
+}
+.footer {
+  height: 175px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer h2 {
+  font-size: 20px;
+  color: white;
+}
+.footer-logo {
+  width: 200px;
+  display: flex;
+  align-items: center;
 }
 .h-275px {
   height: 160px;

@@ -10,9 +10,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Jura:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header class="main-header">
+  <header class="main-header d-flex align-item-c">
 
-      <img class="header-logo" src="images/logo.svg" height="100%" alt="Logo">
+      <img class="header-logo" src="images/logo.svg" alt="Logo">
       <span class="company-name">Лунное море</span>
       <nav class="navigation">
         <a class="marg-10px" href="#privilege">Преимущества</a>
@@ -23,17 +23,17 @@
     </header>
     <main class="bg-color">
 
-      <div class="banner">
-        <div class="banner-elements">
-          <img class="banner-logo" src="images/logo.svg" height="100%" alt="Logo">
+      <div class="banner d-flex align-item-c">
+        <div class="banner-elements d-flex align-item-c">
+          <img class="banner-logo" src="images/logo.svg" alt="Logo">
           <span class="logo-text-name">ЖК «Лунное море»</span>
           <span class="logo-text-slogan">Место, откуда не хочется улетать</span>
-          <a href="#form"><button class="banner-button">Забронировать</button></a>
+          <form action="#form"><button class="banner-button">Забронировать</button></form>
         </div>
       </div>
 
-        <div id="privilege" class="content-box">
-          <div class="content width-1200px">
+        <div id="privilege" class="content-box align-item-c d-flex">
+          <div class="content d-flex align-item-c width-1200px">
             <div class="privilege">
               <h2>Уникальный вид</h2>
               <p>Вид на космос из вашего окна. Мы построили дома с большими окнами, чтобы вы могли наслаждаться метеоритными потоками.</p>
@@ -49,8 +49,8 @@
           </div>
         </div>
 
-        <div id="about" class="content-box bg-gray">
-          <div class="content">
+        <div id="about" class="content-box d-flex align-item-c bg-gray">
+          <div class="content d-flex align-item-c">
             <div class="about">
               <h2 class="marg-t-0px">О ЖК «Лунное море»</h2>
               <p>Все чаще жители Москвы предпочитают загородный дом городской квартире, к тому же связь с мегаполисом не теряется – современные скоростные трассы позволяют без труда добираться до столицы и обратно.</p>
@@ -62,8 +62,8 @@
           </div>
         </div>
 
-        <div id="places" class="content-box">
-          <div class="content">
+        <div id="places" class="content-box d-flex align-item-c">
+          <div class="content d-flex align-item-c">
             <div class="about">
               <img class="content-img" src="./images/moon-2.jpg" alt="Moon-2">
             </div>
@@ -75,26 +75,26 @@
           </div>
         </div>
 
-        <div id="form" class="content-box bg-gray height-600px">
-          <div class="form">
-            <form action="">
-              <div class="in-form">
+        <div id="form" class="content-box d-flex align-item-c bg-gray height-600px">
+          <div class="form d-flex">
+            <form action="#">
+              <div class="in-form d-flex">
                 <h2>Оставьте заявку сегодня!</h2>
 
                 <fieldset>
-                  <legend align="left">Параметры квартиры</legend>
-                  <div class="parameters">
-                    <div class="parameters-in">                  
+                  <legend class="t-align-l">Параметры квартиры</legend>
+                  <div class="parameters d-flex align-item-c">
+                    <div class="parameters-in d-flex">                  
                       <span>Количество комнат:</span>
                       <span class="marg-t-10px">Отделка:</span>
                     </div>
-                    <div class="parameters-in align-item-c">
-                      <select name="room-count" id="count" form="form">
+                    <div class="parameters-in d-flex align-item-c align-item-c">
+                      <select name="room-count" id="count">
                         <option value="">1</option>
                         <option value="">2</option>
                         <option value="">3</option>
                       </select>
-                      <select class="marg-t-10px" name="room-design" id="design" form="form">
+                      <select class="marg-t-10px" name="room-design" id="design">
                         <option value="">Econom</option>
                         <option value="">Standart</option>
                         <option value="">VIP</option>
@@ -104,14 +104,14 @@
                 </fieldset>
 
                 <fieldset>
-                  <legend align="left">Контактная информация</legend>
-                  <div class="parameters h-275px">
-                    <div class="parameters-in">
+                  <legend class="t-align-l">Контактная информация</legend>
+                  <div class="parameters d-flex align-item-c h-275px">
+                    <div class="parameters-in d-flex">
                       <span>Имя:</span>
                       <span class="marg-t-10px">Телефон:</span>
                       <span class="marg-t-10px">E-mail:</span>
                     </div>
-                    <div class="parameters-in">
+                    <div class="parameters-in d-flex">
                       <input type="text" name="name" class="contact-inp ">
                       <input type="text" name="phone" class="contact-inp marg-t-10px">
                       <input type="text" name="email" class="contact-inp marg-t-10px">
@@ -126,24 +126,24 @@
           </div>
         </div>
     </main>
-    <footer>
-      <div class="footer">
-        <div class="footer-logo">
-          <img class="header-logo" src="images/logo.svg" height="100%" alt="Logo">
+    <footer class="d-flex align-item-c">
+      <div class="footer d-flex align-item-c">
+        <div class="footer-logo d-flex align-item-c">
+          <img class="header-logo" src="images/logo.svg" alt="Logo">
           <span class="company-name">Лунное море</span>
         </div>
-        <div class="footer-logo">
+        <div class="footer-logo align-item-c">
           <span class="marg-10px">&copy;2032 год</span>
         </div>
       </div>
-      <div class="footer">
+      <div class="footer d-flex align-item-c">
         <h2>Проектная документация</h2>
         <ul>
           <li><a href="#">Скачать</a></li>
           <li><a href="#">Посмотреть на сайте</a></li>
         </ul>
       </div>
-      <div class="footer">
+      <div class="footer d-flex align-item-c">
         <h2>О Застройщике</h2>
         <ul>
           <li><a href="#">Отзывы</a></li>

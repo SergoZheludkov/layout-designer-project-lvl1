@@ -2,6 +2,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   color: #303846;
+  margin: 0px;
 }
 main {
   margin-top: 75px;
@@ -18,7 +19,8 @@ h2 {
 }
 select {
   height: 30px;
-  width: 120px;
+  width: 150px;
+  background-color: #fff;
   border: 1px solid silver;
 }
 input {
@@ -120,7 +122,7 @@ footer A:visited {
 }
 .content {
   position: relative;
-  width: 1000px;
+  width: 900px;
   height: 250px;
   flex-direction: row;
   justify-content: center;
@@ -149,12 +151,12 @@ footer A:visited {
 }
 .parameters {
   height: 120px;
-  width: 475px;
+  width: 425px;
   justify-content: center;
 }
 .parameters-in {
   height: 100px;
-  width: 200px;
+  width: 220px;
   flex-direction: column;
   justify-content: center;
   font-size: 20px;
@@ -187,17 +189,20 @@ footer A:visited {
 .d-flex {
   display: flex;
 }
+.flex-2 {
+  flex: 2;
+} 
 .align-item-c {
   align-items: center;
+}
+.w-1000px {
+  width: 1000px;
 }
 .h-275px {
   height: 160px;
 }
-.height-600px {
+.height-700px {
   height: 700px;
-}
-.width-1200px {
-  width: 1200px;
 }
 .t-align-r {
   text-align: right;
@@ -216,4 +221,7 @@ footer A:visited {
 }
 .bg-gray {
   background:  #f7f7f7;
+}
+.marg-t-450px {
+  margin-top: -450px;
 }

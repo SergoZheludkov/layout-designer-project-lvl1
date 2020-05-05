@@ -23,12 +23,12 @@
     </header>
     <main class="bg-color">
 
-      <div class="banner d-flex align-item-c">
-        <div class="banner-elements d-flex align-item-c">
-          <img class="banner-logo" src="images/logo.svg" alt="Logo">
+      <div class="top d-flex align-item-c">
+        <div class="top-elements d-flex align-item-c">
+          <img class="top-logo" src="images/logo.svg" alt="Logo">
           <span class="logo-text-name">ЖК «Лунное море»</span>
           <span class="logo-text-slogan">Место, откуда не хочется улетать</span>
-          <form action="#form"><button class="banner-button">Забронировать</button></form>
+          <a href="#form"><input type="button" class="btn booking-button" value="Забронировать"></a>
         </div>
       </div>
 
@@ -79,7 +79,7 @@
           </div>
         </div>
 
-        <div id="form" class="content-box d-flex align-item-c bg-gray height-700px">
+        <div id="form" class="content-box d-flex align-item-c bg-gray height-100">
           <div class="form d-flex">
             <form action="#">
               <div class="in-form d-flex">
@@ -123,7 +123,7 @@
                   </div>
                 </fieldset>
 
-                <input class="submit" type="submit" value="Отправить">
+                <input class="btn submit" type="submit" value="Отправить">
 
               </div>
             </form>
@@ -131,28 +131,30 @@
         </div>
     </main>
     <footer class="d-flex align-item-c">
-      <div class="footer d-flex align-item-c">
-        <div class="footer-logo d-flex align-item-c">
-          <img class="header-logo" src="images/logo.svg" alt="Logo">
-          <span class="company-name">Лунное море</span>
+      <div class="d-flex max-w-1000px">
+        <div class="footer d-flex align-item-c">
+          <div class="footer-logo d-flex align-item-c">
+            <img class="header-logo" src="images/logo.svg" alt="Logo">
+            <span class="company-name">Лунное море</span>
+          </div>
+          <div class="footer-logo align-item-c">
+            <span class="marg-10px">&copy;2032 год</span>
+          </div>
         </div>
-        <div class="footer-logo align-item-c">
-          <span class="marg-10px">&copy;2032 год</span>
+        <div class="footer d-flex align-item-c">
+          <h2>Проектная документация</h2>
+          <ul>
+            <li><a href="#">Скачать</a></li>
+            <li><a href="#">Посмотреть на сайте</a></li>
+          </ul>
         </div>
-      </div>
-      <div class="footer d-flex align-item-c">
-        <h2>Проектная документация</h2>
-        <ul>
-          <li><a href="#">Скачать</a></li>
-          <li><a href="#">Посмотреть на сайте</a></li>
-        </ul>
-      </div>
-      <div class="footer d-flex align-item-c">
-        <h2>О Застройщике</h2>
-        <ul>
-          <li><a href="#">Отзывы</a></li>
-          <li><a href="#">Cайт компании</a></li>
-        </ul>
+        <div class="footer d-flex align-item-c">
+          <h2>О Застройщике</h2>
+          <ul>
+            <li><a href="#">Отзывы</a></li>
+            <li><a href="#">Cайт компании</a></li>
+          </ul>
+        </div>
       </div>
     </footer>
 </body>

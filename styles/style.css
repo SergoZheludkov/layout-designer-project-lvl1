@@ -1,3 +1,9 @@
+:root {
+  --header-height: 50px;
+
+  --font-color-dark: #303846;
+  --font-color-light: #fff;
+}
 body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
@@ -5,13 +11,12 @@ body {
   margin: 0px;
 }
 main {
-  margin-top: 75px;
+  margin-top: var(--header-height);
 }
 footer {
-  height: 200px;
   flex-direction: row;
   justify-content: space-evenly;
-  color: white;
+  color: var(--font-color-light);
   background-color: #303846;
 }
 h2 {
@@ -41,22 +46,22 @@ A:link {
   text-decoration: none;
 }
 header a {
-  color: #303846;
+  color: var(--font-color-dark);
 }
 header A:visited {
   text-decoration: none;
-  color: #303846;
+  color: var(--font-color-dark);
 }
 footer a {
-  color: #fff;
+  color: var(--font-color-light);
 }
 footer A:visited {
   text-decoration: none;
-  color: #fff;
+  color: var(--font-color-light);
 }
 .main-header {
+  height: var(--header-height);
   position: fixed;
-  height: 75px;
   left: 0px;
   right: 0px;
   top: 0px;
@@ -85,13 +90,12 @@ footer A:visited {
   position: absolute;
   max-width: 500px;
   z-index: 1;
-  flex-direction: column;
-  color: white;
+  color: var(--font-color-light);
 }
 .top-logo {
   max-height: 225px;
 }
-.logo-text-name {
+.font-s-48px {
   font-size: 48px;
 }
 .logo-text-slogan {
@@ -105,10 +109,10 @@ footer A:visited {
   margin-top: 20px;
   border: 1.5px solid;
 }
-.booking-button {
-  display: block;
+.booking {
+  justify-content: center;
   font-family: Arial, Helvetica, sans-serif;
-  color: white;
+  color: var(--font-color-light);
   text-align: center;
   background: rgba(255, 255, 255, 0.1);
   border-color: silver;
@@ -118,14 +122,12 @@ footer A:visited {
   width: 100%;
   top: 0px;
   bottom: 0px;
-  height: 100%;
   padding: 25px 0px;
   justify-content: center;
 }
 .content {
   position: relative;
-  width: 900px;
-  height: 250px;
+  width: 1000px;
   flex-direction: row;
   justify-content: center;
 }
@@ -138,19 +140,14 @@ footer A:visited {
 .about {
   position: relative;
   vertical-align: middle;
-  height: 220px;
-  flex: 1;
 }
 .content-img {
-  height: 100%;
+  height: 200px;
   margin: 0px 25px 0px 25px;
 }
 .form {
   max-width: 500px;
   text-align: center;
-}
-.in-form {
-  flex-direction: column;
 }
 .parameters {
   height: 120px;
@@ -160,7 +157,6 @@ footer A:visited {
 .parameters-in {
   height: 100px;
   width: 220px;
-  flex-direction: column;
   justify-content: center;
   font-size: 20px;
   text-align: left;
@@ -172,33 +168,31 @@ footer A:visited {
   border-color: rgb(121, 228, 174);
 }
 .footer {
-  height: 175px;
   width: 350px;
-  flex-direction: column;
   justify-content: center;
-
+  padding: 20px;
 }
 .footer h2 {
   font-size: 20px;
-  color: white;
+  color: var(--font-color-light);
 }
-.footer-logo {
+.w-200px {
   width: 200px;
 }
 .d-flex {
   display: flex;
 }
-.flex-2 {
-  flex: 2;
+.flex-dir-column {
+  flex-direction: column;
+}
+.flex-basis-500px {
+  flex-basis: 500px;
 } 
 .align-item-c {
   align-items: center;
 }
 .max-w-1000px {
   max-width: 1000px;
-}
-.w-1000px {
-  width: 1000px;
 }
 .h-275px {
   height: 160px;
@@ -221,6 +215,6 @@ footer A:visited {
 .bg-gray {
   background:  #f7f7f7;
 }
-.marg-t-450px {
-  margin-top: -450px;
+.marg-t-350px {
+  margin-top: -350px;
 }

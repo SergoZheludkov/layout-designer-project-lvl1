@@ -24,16 +24,16 @@
     <main class="bg-color">
 
       <div class="top d-flex align-item-c">
-        <div class="top-elements d-flex align-item-c">
+        <div class="top-elements d-flex align-item-c flex-dir-column">
           <img class="top-logo" src="images/logo.svg" alt="Logo">
-          <span class="logo-text-name">ЖК «Лунное море»</span>
+          <span class="font-s-48px">ЖК «Лунное море»</span>
           <span class="logo-text-slogan">Место, откуда не хочется улетать</span>
-          <a href="#form"><input type="button" class="btn booking-button" value="Забронировать"></a>
+          <a href="#form" class="btn booking d-flex align-item-c">Забронировать</a>
         </div>
       </div>
 
         <div class="content-box align-item-c d-flex">
-          <span class="marg-t-450px" id="privilege" ></span>
+          <span class="marg-t-350px" id="privilege" ></span>
           <div class="content d-flex align-item-c w-1000px">
             <div class="privilege">
               <h2>Уникальный вид</h2>
@@ -52,9 +52,9 @@
 
         
         <div class="content-box d-flex align-item-c bg-gray">
-          <span class="marg-t-450px" id="about"></span>
+          <span class="marg-t-350px" id="about"></span>
           <div class="content d-flex align-item-c">
-            <div class="about flex-2">
+            <div class="about flex-basis-500px">
               <h2 class="marg-t-0px">О ЖК «Лунное море»</h2>
               <p>Все чаще жители Москвы предпочитают загородный дом городской квартире, к тому же связь с мегаполисом не теряется – современные скоростные трассы позволяют без труда добираться до столицы и обратно.</p>
               <p>Мы построили наши дома на самом близком к Солнцу спутнике, всего в 380 тысяч километров от Земли.</p>
@@ -66,12 +66,12 @@
         </div>
 
         <div class="content-box d-flex align-item-c">
-          <span class="marg-t-450px" id="places"></span>
+          <span class="marg-t-350px" id="places"></span>
           <div class="content d-flex align-item-c">
             <div class="about">
               <img class="content-img" src="./images/moon-2.jpg" alt="Moon-2">
             </div>
-            <div class="about flex-2">
+            <div class="about flex-basis-500px">
               <h2 class="marg-t-0px">Места для отдыха</h2>
               <p>Луна обладает всеми условиями для комфортного отдыха от большого города. В вашем распоряжении 22 моря и 18 гор. Самое ближайшее кольцо гор всего в 200 километров от вашей квартиры.</p>
               <p>Дома располагаются в новом районе «Лунные моря». При необходимости есть автобусы до района «Лунный материк».</p>
@@ -82,17 +82,17 @@
         <div id="form" class="content-box d-flex align-item-c bg-gray height-100">
           <div class="form d-flex">
             <form action="#">
-              <div class="in-form d-flex">
+              <div class="d-flex flex-dir-column">
                 <h2>Оставьте заявку сегодня!</h2>
 
                 <fieldset>
                   <legend class="t-align-l">Параметры квартиры</legend>
                   <div class="parameters d-flex align-item-c">
-                    <div class="parameters-in d-flex">                  
+                    <div class="parameters-in d-flex flex-dir-column">                  
                       <span>Количество комнат:</span>
                       <span class="marg-t-10px">Отделка:</span>
                     </div>
-                    <div class="parameters-in d-flex">
+                    <div class="parameters-in d-flex flex-dir-column">
                       <select name="room-count" id="count">
                         <option value="">1</option>
                         <option value="">2</option>
@@ -110,12 +110,12 @@
                 <fieldset>
                   <legend class="t-align-l">Контактная информация</legend>
                   <div class="parameters d-flex align-item-c h-275px">
-                    <div class="parameters-in d-flex">
+                    <div class="parameters-in d-flex flex-dir-column">
                       <span>Имя:</span>
                       <span class="marg-t-10px">Телефон:</span>
                       <span class="marg-t-10px">E-mail:</span>
                     </div>
-                    <div class="parameters-in d-flex">
+                    <div class="parameters-in d-flex flex-dir-column">
                       <input type="text" name="name" class="contact-inp ">
                       <input type="text" name="phone" class="contact-inp marg-t-10px">
                       <input type="text" name="email" class="contact-inp marg-t-10px">
@@ -132,23 +132,23 @@
     </main>
     <footer class="d-flex align-item-c">
       <div class="d-flex max-w-1000px">
-        <div class="footer d-flex align-item-c">
-          <div class="footer-logo d-flex align-item-c">
+        <div class="footer d-flex align-item-c flex-dir-column">
+          <div class="d-flex align-item-c w-200px">
             <img class="header-logo" src="images/logo.svg" alt="Logo">
             <span class="company-name">Лунное море</span>
           </div>
-          <div class="footer-logo align-item-c">
+          <div class="align-item-c w-200px">
             <span class="marg-10px">&copy;2032 год</span>
           </div>
         </div>
-        <div class="footer d-flex align-item-c">
+        <div class="footer d-flex align-item-c flex-dir-column">
           <h2>Проектная документация</h2>
           <ul>
             <li><a href="#">Скачать</a></li>
             <li><a href="#">Посмотреть на сайте</a></li>
           </ul>
         </div>
-        <div class="footer d-flex align-item-c">
+        <div class="footer d-flex align-item-c flex-dir-column">
           <h2>О Застройщике</h2>
           <ul>
             <li><a href="#">Отзывы</a></li>

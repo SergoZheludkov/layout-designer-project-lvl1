@@ -128,10 +128,6 @@ footer A:visited {
   width: 1000px;
   justify-content: space-around;
 }
-.about {
-  position: relative;
-  vertical-align: middle;
-}
 .content-img {
   height: 200px;
 }
